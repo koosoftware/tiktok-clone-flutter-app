@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () async {
           final ImagePicker _picker = ImagePicker();
           final XFile? video = await _picker.pickVideo(
-            source: ImageSource.gallery,
+            source: ImageSource.camera,
             maxDuration: const Duration(
               seconds: 60,
             ),
